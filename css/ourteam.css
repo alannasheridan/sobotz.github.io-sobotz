@@ -1,0 +1,26 @@
+leads{
+    text-align: center;
+    margin-left: 10px;
+}
+
+advisorName{
+    text-align: center;
+    font-size: 30px; 
+    position: relative;
+    top: 25px;
+}
+
+#advisorText{
+    text-align: center;
+    font-size: 16px;
+    padding: 25px;
+}
+
+advisorText{
+    text-align: center;
+    line-height: 50px;
+}
+
+img {
+    /* width: 20em; */
+}

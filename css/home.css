@@ -1,0 +1,63 @@
+
+/*top*/
+#topHome {
+  position: relative;
+  background-image: url("2024worlds.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  z-index: 1;
+  overflow: hidden; 
+}
+#topHome .overlay-image {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 450px;
+  height: auto;
+  opacity: .7;
+}
+
+ul{
+  background: #a80000;
+  list-style-type: square;
+}
+ul li {
+  background: #d4d4d4;
+  color: #a80000;
+  margin: 5px;
+}
+
+.box {
+  width: 350px;
+  height: 150px;
+  margin: 10px 55px 10px 55px;
+  background-color: rgba(255,255,255,.5);
+  display: inline-flex;
+  border-radius: 10px;
+  border-color: red;
+  border-width: 3px;
+}
+
+
+.boxText{
+  text-align: center;
+  color: black;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 30px;
+  -webkit-text-stroke: .7px black;
+}
+
+.title{
+  text-align: center;
+  font-size: 70px;
+  font-weight: bolder;
+  color: white;
+}
+
+.robotImage{
+  height: 300px;
+  margin-left: 20px;
+}

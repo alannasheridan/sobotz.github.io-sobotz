@@ -1,0 +1,18 @@
+.button{
+    display:inline-block;
+    border-radius:2px;
+    font-family:'Roboto',sans-serif;
+    font-size: 40px;
+    color:black;
+    text-align:center;
+    transition: all 0.2s;
+    width:70%;
+    background-color:rgb(190, 186, 186);
+    margin-top: 20px;
+}
+.button:hover{
+    color:white;
+    background-color:black;
+    border:0.1em solid white;
+}
+    

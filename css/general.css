@@ -1,0 +1,225 @@
+ /*basis*/
+html {
+  scroll-behavior: smooth;
+  background-color: black;
+}
+body {
+  text-align: center;
+  margin-left: 7%;
+  margin-right: 7%;
+  font-size: 20px;
+  font-family: Verdana,sans-serif; 
+  color: white;
+  margin: 0;
+  overflow-x: hidden;
+ }
+ 
+ 
+ /*for all pages besides home*/
+  #top{
+    position: relative;
+    background-image: url('bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    z-index: 1;
+    color: white;
+  }
+  overlay{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    position: absolute;
+    -webkit-text-stroke: 4px black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #content{
+    margin-top: 20px;
+  }
+ 
+/*Use h1 for all main headers*/
+  h1{
+    text-align: center;
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #a80000;
+    -webkit-text-stroke: 3px #d4d4d4;
+  }
+  h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #a80000;
+    -webkit-text-stroke: 1px #d4d4d4;
+  }
+   
+
+  /*Column Divisions*/
+  .column2 {
+    float: left;
+    width: 50%;
+  }
+  .column3 {
+    float: left;
+    width: 33%;
+  }
+  .column4 {
+    float: left;
+    width: 25%;
+  }
+  .container {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .row {
+      position: relative;
+      padding-bottom: 100px; 
+      background-repeat: no-repeat; 
+      background-size: 100%; 
+      background-attachment: fixed; 
+  }  
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+
+
+
+/*dividers for subsections*/
+  .divider1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 101%;
+    height: 100px; 
+    background-color: black; 
+    transform: rotate(3deg);
+    transform-origin: left;
+    margin-left: -50px;
+    margin-right: -50px;
+    z-index: 3; 
+    border-top: 15px solid #a80000;
+    margin: 0 -.5em;
+  }
+
+  .divider1::before,
+  .divider1::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 50px;
+    height: 100%;
+    background-color: inherit;
+  }
+
+  .divider1::before {
+    left: -50px;
+  }
+
+  .divider1::after {
+    right: -50px;
+  }
+
+
+  .divider2,
+  .divider3 {
+    position: absolute;
+    bottom: 0;
+    left: 50%; 
+    right: -100px;
+    height: 100px;
+    background-color: #a80000;
+    transform-origin: left;
+    z-index: 3;
+  }
+
+  .divider2 {
+    width: 100%;
+    transform: translateX(-50%) rotate(-3deg); 
+  }
+
+  .divider2::before,
+  .divider2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 50px;
+    height: 100%;
+    background-color: inherit;
+  }
+
+  .divider2::before {
+    left: -50px;
+  }
+
+  .divider2::after {
+    right: -50px;
+  }
+
+  .divider3 {
+    width: 100%;
+    transform: translateX(-50%) rotate(3deg); 
+  }
+
+  .divider3::before,
+  .divider3::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 50px;
+    height: 100%;
+    background-color: inherit;
+  }
+
+  .divider3::before {
+    left: -50px;
+  }
+
+  .divider3::after {
+    right: -50px;
+  }
+
+  .divider4 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    height: 100px; 
+    background-color: #a80000; 
+    transform-origin: left;
+    z-index: 3; 
+  }
+  
+  .divider4::before,
+  .divider4::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 100%;
+    background-color: inherit;
+    top: 0; 
+  }
+  
+  .divider4::before {
+    left: 0; 
+  }
+  
+  .divider4::after {
+    right: 0; 
+  }
